@@ -7,6 +7,13 @@ from rest_framework.test import APITestCase
 from .models import Categoria, Produto
 
 
+class HomePageTests(TestCase):
+    def test_home_redirects_to_api(self):
+        response = self.client.get("/")
+
+        self.assertRedirects(response, "/api/", fetch_redirect_response=False)
+
+
 class CategoriaApiTests(APITestCase):
     def test_categoria_crud(self):
         list_url = reverse("categoria-list")
