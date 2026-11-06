@@ -1,0 +1,173 @@
+[
+  {
+    "model": "cardapio.categoria",
+    "pk": 1,
+    "fields": {
+      "nome": "Lanches"
+    }
+  },
+  {
+    "model": "cardapio.categoria",
+    "pk": 2,
+    "fields": {
+      "nome": "Porções"
+    }
+  },
+  {
+    "model": "cardapio.categoria",
+    "pk": 3,
+    "fields": {
+      "nome": "Bebidas"
+    }
+  },
+  {
+    "model": "cardapio.categoria",
+    "pk": 4,
+    "fields": {
+      "nome": "Sobremesas"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 1,
+    "fields": {
+      "nome": "X-Burger",
+      "categoria": 1,
+      "descricao": "Pão, hambúrguer artesanal, queijo e molho da casa.",
+      "preco": "18.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 2,
+    "fields": {
+      "nome": "X-Salada",
+      "categoria": 1,
+      "descricao": "Pão, hambúrguer, queijo, alface, tomate e molho da casa.",
+      "preco": "22.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 3,
+    "fields": {
+      "nome": "X-Bacon",
+      "categoria": 1,
+      "descricao": "Pão, hambúrguer, queijo, bacon crocante e molho da casa.",
+      "preco": "25.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 4,
+    "fields": {
+      "nome": "X-Frango",
+      "categoria": 1,
+      "descricao": "Pão, filé de frango grelhado, queijo, alface e tomate.",
+      "preco": "23.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 5,
+    "fields": {
+      "nome": "Batata Frita",
+      "categoria": 2,
+      "descricao": "Porção de batatas fritas crocantes.",
+      "preco": "16.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 6,
+    "fields": {
+      "nome": "Onion Rings",
+      "categoria": 2,
+      "descricao": "Porção de anéis de cebola empanados.",
+      "preco": "19.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 7,
+    "fields": {
+      "nome": "Coca-Cola Lata",
+      "categoria": 3,
+      "descricao": "Refrigerante em lata de 350 ml.",
+      "preco": "6.00",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 8,
+    "fields": {
+      "nome": "Guaraná Lata",
+      "categoria": 3,
+      "descricao": "Refrigerante em lata de 350 ml.",
+      "preco": "6.00",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 9,
+    "fields": {
+      "nome": "Suco Natural de Laranja",
+      "categoria": 3,
+      "descricao": "Suco natural preparado na hora, 300 ml.",
+      "preco": "9.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 10,
+    "fields": {
+      "nome": "Pudim",
+      "categoria": 4,
+      "descricao": "Fatia de pudim de leite condensado com calda.",
+      "preco": "8.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  },
+  {
+    "model": "cardapio.produto",
+    "pk": 11,
+    "fields": {
+      "nome": "Brownie",
+      "categoria": 4,
+      "descricao": "Brownie de chocolate servido em porção individual.",
+      "preco": "10.90",
+      "disponivel": true,
+      "imagem": null,
+      "criado_em": "2026-11-06T20:00:00-03:00"
+    }
+  }
+]
