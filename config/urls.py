@@ -21,5 +21,6 @@ from django.views.generic import RedirectView
 urlpatterns = [
     path('', RedirectView.as_view(url='/api/', permanent=False), name='home'),
     path('admin/', admin.site.urls),
+    path('api/admin/', RedirectView.as_view(url='/admin/', permanent=False), name='api-admin-redirect'),
     path('api/', include('cardapio.urls')),
 ]

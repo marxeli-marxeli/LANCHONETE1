@@ -13,6 +13,11 @@ class HomePageTests(TestCase):
 
         self.assertRedirects(response, "/api/", fetch_redirect_response=False)
 
+    def test_api_admin_redirects_to_django_admin(self):
+        response = self.client.get("/api/admin/")
+
+        self.assertRedirects(response, "/admin/", fetch_redirect_response=False)
+
 
 class CategoriaApiTests(APITestCase):
     def test_categoria_crud(self):
